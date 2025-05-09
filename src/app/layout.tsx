@@ -12,8 +12,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-    title: "Todo PWA",
-    description: "Simple PWA Todo App",
+    title: "Todo App",
+    description: "Todo App PWA",
+    manifest: "/manifest.json",
+    themeColor: "#000000",
+    icons: {
+        icon: "/icons/icon-192x192.png",
+        apple: "/icons/icon-192x192.png",
+    },
 };
 
 export default function RootLayout({
